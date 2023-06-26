@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>YouTube</title>
+	</head>
+	<body>
+		<header>
+			<div class="list">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="25"
+					height="25"
+					fill="white"
+					class="bi bi-list"
+					viewBox="0 0 16 16"
+				>
+					<path
+						fill-rule="evenodd"
+						d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+					/>
+				</svg>
+				<p class="yt">
+					Youtube
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="25"
+						height="25"
+						fill="red"
+						class="bi bi-youtube"
+						viewBox="0 0 16 16"
+					>
+						<path
+							d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+						/>
+					</svg>
+				</p>
+			</div>
+			<div class="search-bar">
+				<input class="search" type="text" placeholder="Search..." /><svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="25"
+					height="25"
+					fill="currentColor"
+					class="bi bi-mic"
+					viewBox="0 0 16 16"
+				>
+					<path
+						d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"
+					/>
+					<path
+						d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"
+					/>
+				</svg>
+			</div>
+			<div class="user-image">
+				<figure>
+					<img class="user-avatar" src="images/trsprnt.png" alt="" />
+				</figure>
+			</div>
+		</header>
+
+		<nav class="vertical-nav">
+			<ul>
+				<li>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						fill="white"
+						class="bi bi-house"
+						viewBox="0 0 16 16"
+					>
+						<path
+							d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+						/>
+					</svg>
+					<a href="#">Accueil</a>
+				</li>
+				<li>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						version="1.1"
+						width="16"
+						height="16"
+						viewBox="0 0 256 256"
+						xml:space="preserve"
+					>
+						<g
+							style="
+								stroke: none;
+								stroke-width: 0;
+								stroke-dasharray: none;
+								stroke-linecap: butt;
+								stroke-linejoin: miter;
+								stroke-miterlimit: 10;
+								fill: none;
+								fill-rule: nonzero;
+								opacity: 1;
+							"
+							transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+						>
+							<path
+								d="M 69.186 38.498 c -1.406 -0.795 -2.751 -1.651 -4.34 -2.568 c 1.589 -0.978 3.057 -1.834 4.463 -2.629 c 6.541 -3.546 10.148 -10.759 9.047 -18.095 C 76.766 3.164 62.889 -3.804 52.375 2.186 C 41.616 8.361 30.857 14.413 20.22 20.77 c -8.436 5.074 -9.659 11.798 -8.314 19.745 c 0.856 4.952 4.157 8.619 8.497 11.126 c 1.528 0.856 2.995 1.712 4.646 2.69 c -1.834 1.1 -3.484 2.078 -5.257 2.995 c -7.825 4.952 -10.515 15.099 -6.113 23.291 c 4.646 8.62 15.405 11.921 24.024 7.275 c 9.292 -5.257 18.584 -10.637 27.815 -16.016 c 2.201 -1.284 4.524 -2.445 6.48 -4.035 C 81.84 59.649 80.373 44.795 69.186 38.498 z M 36.359 58.549 V 31.835 l 23.108 13.327 L 36.359 58.549 z"
+								style="
+									stroke: none;
+									stroke-width: 1;
+									stroke-dasharray: none;
+									stroke-linecap: butt;
+									stroke-linejoin: miter;
+									stroke-miterlimit: 10;
+									fill: #fff; /* Couleur blanche */
+									fill-rule: nonzero;
+									opacity: 1;
+								"
+								transform="matrix(1 0 0 1 0 0)"
+								stroke-linecap="round"
+							/>
+						</g>
+					</svg>
+
+					><a href="#">Shorts</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="16"
+						viewBox="0 0 24 24"
+						width="16"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"
+						></path>
+					</svg>
+					><a href="#">Abonnements</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"
+						></path>
+					</svg>
+					><a href="#">Bibliothèque</a>
+				</li>
+				<li>
+					<svg
+						height="24"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+					>
+						<g>
+							<path
+								fill="#fff"
+								d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM22 12c0 5.51-4.49 10-10 10S2 17.51 2 12h1c0 4.96 4.04 9 9 9s9-4.04 9-9-4.04-9-9-9C8.81 3 5.92 4.64 4.28 7.38c-.11.18-.22.37-.31.56L3.94 8H8v1H1.96V3h1v4.74c.04-.09.07-.17.11-.25.11-.22.23-.42.35-.63C5.22 3.86 8.51 2 12 2c5.51 0 10 4.49 10 10z"
+							></path>
+						</g>
+					</svg>
+					><a href="#">Historique</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="m10 8 6 4-6 4V8zm11-5v18H3V3h18zm-1 1H4v16h16V4z"
+						></path>
+					</svg>
+					><a href="#">Vos vidéos</a>
+				</li>
+				<li>
+					<svg
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM12 3c-4.96
+							0-9 4.04-9 9s4.04 9 9 9 9-4.04 9-9-4.04-9-9-9m0-1c5.52 0 10 4.48
+							10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"
+						></path>
+					</svg>
+					><a href="#">À regarder plus tard</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"
+						></path>
+					</svg>
+					><a href="#">Vidéos "J'aime"</a>
+				</li>
+				<li>
+					<svg
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="m18 9.28-6.35 6.35-6.37-6.35.72-.71 5.64 5.65 5.65-5.65z"
+						></path>
+					</svg>
+					><a href="#">Plus</a>
+				</li>
+				<h3>Abonnement</h3>
+				<li>
+					<a href="#">
+						<img
+							src="https://yt3.ggpht.com/rtZ6fdmrO362rfAvnjsK0LeotmXc604ZOLsmw0p3R_hqD9HWLABSYfjXys_L2SZdj-YeRAd1=s88-c-k-c0x00ffffff-no-rj"
+							alt="Avatar"
+							width="32"
+							height="32"
+						/>
+						<span>Rainbow Six France</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img
+							src="https://yt3.ggpht.com/ytc/AGIKgqOppVNYHCq-HB04Wc2QrocQrMcIRlsXhADOobGIgQ=s88-c-k-c0x00ffffff-no-rj"
+							alt="Avatar"
+							width="32"
+							height="32"
+						/>
+						<span>Squeezie</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img
+							src="https://yt3.ggpht.com/dsuMneGJL8iYLolA4wRLw_stLv_zjS7dhwe6SzzuDVRdJCQsNdtcFg7-KBav431MjuYUEtoj=s88-c-k-c0x00ffffff-no-rj"
+							alt="Avatar"
+							width="32"
+							height="32"
+						/>
+						<span>Sixquatre</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img
+							src="https://yt3.ggpht.com/ytc/AGIKgqMlxY3eEP52s6wSn1GgWRn4x_Mf3zhND6gKtW0ffQ=s88-c-k-c0x00ffffff-no-rj"
+							alt="Avatar"
+							width="32"
+							height="32"
+						/>
+						<span>OneShooter</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img
+							src="https://yt3.ggpht.com/I5YCeq0MA3-zTZOqHO2BCSGHXkt8bYP_n7Mya82M5F-vvirrJZVULkBJsQdRNRe8eArXY9TfwA=s88-c-k-c0x00ffffff-no-rj"
+							alt="Avatar"
+							width="32"
+							height="32"
+						/>
+						<span>AleisterJo</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img
+							src="https://yt3.ggpht.com/a75KJ4bnnDwF0VP-2IAw6d_7DB37LUZYS6CxU2ocpYK9rqVRaE3SCIu_mjqm7cACL1qiTylV4w=s88-c-k-c0x00ffffff-no-rj"
+							alt="Avatar"
+							width="32"
+							height="32"
+						/>
+						<span>Grafikart.fr</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img
+							src="https://yt3.ggpht.com/rtZ6fdmrO362rfAvnjsK0LeotmXc604ZOLsmw0p3R_hqD9HWLABSYfjXys_L2SZdj-YeRAd1=s88-c-k-c0x00ffffff-no-rj"
+							alt="Avatar"
+							width="32"
+							height="32"
+						/>
+						<span>Rainbow Six Esp...</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" style="display: flex; align-items: center">
+						<svg
+							height="24"
+							viewBox="0 0 24 24"
+							width="24"
+							focusable="false"
+							style="
+								pointer-events: none;
+								display: block;
+								width: 16px;
+								height: 16px;
+								margin-right: 5px;
+							"
+						>
+							<path
+								fill="#fff"
+								d="m18 9.28-6.35 6.35-6.37-6.35.72-.71 5.64 5.65 5.65-5.65z"
+							></path>
+						</svg>
+						<span class="fs-1">Afficher 52 éléments...</span>
+					</a>
+				</li>
+
+				<h3>Explorez</h3>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M19 3.87v9.77C19 17.7 15.86 21 12 21s-7-3.3-7-7.37v-.13c0-1.06.22-2.13.62-3.09.5-1.19 1.29-2.21 2.27-2.97.85-.66 1.83-1.14 2.87-1.65.39-.19.77-.38 1.15-.58.36-.19.72-.38 1.08-.56v3.22l1.55-1.04L19 3.87M20 2l-6 4V3c-.85.44-1.7.88-2.55 1.33-1.41.74-2.9 1.34-4.17 2.32-1.13.87-2.02 2.05-2.58 3.37-.46 1.09-.7 2.29-.7 3.48v.14C4 18.26 7.58 22 12 22s8-3.74 8-8.36V2zM9.45 12.89 14 10v5.7c0 1.82-1.34 3.3-3 3.3s-3-1.47-3-3.3c0-1.19.58-2.23 1.45-2.81z"
+						></path>
+					</svg>
+					><a href="#">Tendances</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7zM9 19c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm9-12h-5V5h5v2z"
+						></path>
+					</svg>
+					><a href="#">Musique</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="m22.01 4.91-.5-2.96L1.64 5.19 2 8v13h20V8H3.06l18.95-3.09zM5 9l1 3h3L8 9h2l1 3h3l-1-3h2l1 3h3l-1-3h3v11H3V9h2z"
+						></path>
+					</svg>
+					><a href="#">Films</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M10 12H8v2H6v-2H4v-2h2V8h2v2h2v2zm7 .5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5.67 1.5 1.5 1.5 1.5-.67 1.5-1.5zm3-3c0-.83-.67-1.5-1.5-1.5S17 8.67 17 9.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5zm-3.03-4.35-4.5 2.53-.49.27-.49-.27-4.5-2.53L3 7.39v6.43l8.98 5.04 8.98-5.04V7.39l-3.99-2.24m0-1.15 4.99 2.8v7.6L11.98 20 2 14.4V6.8L6.99 4l4.99 2.8L16.97 4z"
+						></path>
+					</svg>
+					><a href="#">Jeux vidéos</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M11 11v6H7v-6h4m1-1H6v8h6v-8zM3 3.03V21h14l4-4V3.03M20 4v11.99l-.01.01H16v3.99l-.01.01H4V4h16zm-2 4H6V6h12v2zm0 7h-5v-2h5v2zm0-3h-5v-2h5v2z"
+						></path>
+					</svg>
+					><a href="#">Actualités</a>
+				</li>
+				<li>
+					<svg
+						enable-background="new 0 0 24 24"
+						height="24"
+						viewBox="0 0 24 24"
+						width="24"
+						focusable="false"
+						style="
+							pointer-events: none;
+							display: block;
+							width: 16px;
+							height: 16px;
+						"
+					>
+						<path
+							fill="#fff"
+							d="M18 5V2H6v3H3v6l3.23 1.61c.7 2.5 2.97 4.34 5.69 4.38L8 19v3h8v-3l-3.92-2.01c2.72-.04 4.99-1.88 5.69-4.38L21 11V5h-3zM6 11.38l-2-1V6h2v5.38zM15 21H9v-1.39l3-1.54 3 1.54V21zm2-10c0 2.76-2.24 5-5 5s-5-2.24-5-5V3h10v8zm3-.62-2 1V6h2v4.38z"
+						></path>
+					</svg>
+					><a href="#">Sport</a>
+				</li>
+			</ul>
+			<div class="video-thumbnails">
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/akPqAsZUGz0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5fZlHfZlw4uH34C8wXqFYEZyzZQ"
+						alt="Thumbnail 1"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">Grafikart.fr</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/EBBRKP9hpaY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB7KDmYNCGVN6SixC7zTJ9Yy8rDeA"
+						alt="Thumbnail 2"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">ici Amy Plant</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/NLB-Tmd5nwI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDEJCuVQ8d8nI38GW1v8PxU-Ft7xw"
+						alt="Thumbnail 3"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">Alexis</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/vYWnv63iq9w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAu5W1YQr8Es-Vrd79SvaVYxKhr6A"
+						alt="Thumbnail 4"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">Zeh</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/3yeOTwUcnGk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCuqBcMM5UUorbb54CN60aWnSBQLQ"
+						alt="Thumbnail 5"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">Rashmeltor - Rocket League</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/7MyuLtrfwAw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLC1dc9kqP6FY9rKL4N-FxCUNMMYcQ"
+						alt="Thumbnail 6"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">RTBFSport</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/d40e7tun2-o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAbAHoahZjjFoh9lkQDv_MNlKhcew"
+						alt="Thumbnail 7"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">HugoDécrypte</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/kyRclsioJBQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAISsTGvpf7x4B6DTdN_O3l7XSzlg"
+						alt="Thumbnail 8"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">Lama Dev</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/iHKE_4KeNWQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAARc0gSWzQdALwHDHAwM37lKbzzw"
+						alt="Thumbnail 9"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">Grafikart.fr</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/VjiWpGR82t0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLD1gRLe1WvSntE2koXWKnuitfgLAg"
+						alt="Thumbnail 10"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">CodingPhase</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/dF5y0W4tffE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLD8kdCrlIi3R-lBKsCu652qjgjcww"
+						alt="Thumbnail 11"
+					/>
+					<div class="thumbnail-info">
+						<p class="channel-name">Diksor</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+				<div class="thumbnail">
+					<img
+						src="https://i.ytimg.com/vi/J_47m-Ng7e4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLC4oEAk15vGZ7onagaIRUHxSl91iA"
+						alt="Thumbnail 12"
+					/>
+					<div class="thumbnail-info">
+						<h1>Ceci est un titre</h1>
+						<p class="channel-name">Atomic React</p>
+						<p class="view-count">1 234 vues</p>
+						<p class="time-elapsed">Il y a 2 heures</p>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</body>
+</html>

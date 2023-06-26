@@ -1,0 +1,171 @@
+body {
+	background-color: rgb(15, 15, 15);
+}
+
+/* Header */
+
+header {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.list svg {
+	margin-right: 13px;
+}
+
+p.yt {
+	font-size: 1.5em;
+}
+
+input.search {
+	border: 1px solid grey;
+	border-radius: 30px;
+	padding: 6px;
+	font-size: 1.2em;
+	width: 600px;
+	text-indent: 10px;
+	color: #fff;
+	background-color: rgb(15, 15, 15);
+}
+
+input.search::placeholder {
+	color: rgb(156, 156, 156);
+}
+
+img.user-avatar {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+
+p {
+	font-size: 1.5em;
+	margin-right: 10px;
+	color: #fff;
+}
+
+.yt {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+svg {
+	vertical-align: middle;
+}
+
+.bi-mic {
+	margin: 0 0 2px 2px;
+}
+
+h3 {
+	color: #fff;
+	margin: 15px;
+	font-size: 1.1em;
+}
+
+/* Navigation */
+
+.vertical-nav {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	height: 93vh;
+	background-color: rgb(15, 15, 15);
+	overflow-y: auto;
+}
+
+.vertical-nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.vertical-nav li {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.vertical-nav svg {
+	margin-right: 10px;
+}
+
+.vertical-nav li:nth-child(3),
+.vertical-nav li:nth-child(9),
+.vertical-nav li:nth-child(18) {
+	border-bottom: 1px solid grey;
+}
+
+.vertical-nav a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.vertical-nav li:hover {
+	background-color: rgba(128, 128, 128, 0.226);
+	border-radius: 10px;
+}
+
+li a {
+	display: flex;
+	align-items: center;
+}
+
+li a img {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+h3 li a span {
+	vertical-align: middle;
+}
+
+ul li a span.fs-1 {
+	font-weight: lighter;
+	vertical-align: middle;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.video-thumbnails {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.thumbnail {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+}
+
+.thumbnail img {
+	border-radius: 10px;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.thumbnail-info {
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.thumbnail-info p {
+	color: rgb(182, 182, 182);
+}
+
+h1 {
+	color: #fff;
+	font-size: 2.2em;
+}
